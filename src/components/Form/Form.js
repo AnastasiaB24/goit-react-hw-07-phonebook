@@ -94,7 +94,7 @@ class Form extends Component {
               required
               className={styles.input}
               type="text"
-              placeholder="ex. Anne Hathaway"
+              placeholder="ex. Anastasia Boyko"
               value={this.state.name}
               name="name"
               onChange={this.handleInputChange}
@@ -106,7 +106,7 @@ class Form extends Component {
               required
               className={styles.input}
               type="number"
-              placeholder="ex. 0532455678"
+              placeholder="ex. 0961179998"
               value={this.state.number}
               name="number"
               onChange={this.handleInputChange}

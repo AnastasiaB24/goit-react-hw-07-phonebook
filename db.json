@@ -1,23 +1,23 @@
 {
   "contacts": [
     {
-      "name": "Anton",
-      "number": "45454545",
+      "name": "Anastasia",
+      "number": "0961179998",
       "id": 1
     },
     {
-      "name": "Lin",
-      "number": "345666543",
+      "name": "Lida",
+      "number": "0978193424",
       "id": 2
     },
     {
-      "name": "Dan",
-      "number": "456787564",
+      "name": "DanBalan",
+      "number": "0961234567",
       "id": 3
     },
     {
-      "name": "love",
-      "number": "3434343",
+      "name": "Kirkorov",
+      "number": "0853455778",
       "id": 4
     }
   ]
