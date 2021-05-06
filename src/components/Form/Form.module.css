@@ -1,0 +1,60 @@
+.form {
+  border: 2px #70ab8f solid;
+  border-radius: 10px;
+  padding: 5px 0 10px;
+}
+.label {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  margin: 0 auto;
+}
+.input {
+  margin-left: 10px;
+  height: 35px;
+  border: 2px #70ab8f solid;
+  border-radius: 6px;
+  margin: auto 0;
+  width: 175px;
+  padding: 10px;
+}
+.input::placeholder {
+  color: lightgrey;
+  font-style: italic;
+  font-size: 14px;
+}
+.input:focus {
+  outline: none;
+  border: 2px solid #3e745b;
+  color: darkolivegreen;
+}
+
+.labelName {
+  color: darkolivegreen;
+}
+.button {
+  display: block;
+  align-items: flex-end;
+  height: 30px;
+  background-color: rgb(212, 231, 179);
+  border: 2px #70ab8f solid;
+  border-radius: 6px;
+  margin: 10px auto 0;
+
+  color: darkolivegreen;
+}
+.button:disabled {
+  background-color: rgb(228, 236, 215);
+  border: 2px #9da1a0 solid;
+  color: rgb(142, 155, 120);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
